@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<ImageView android:id="@+id/image" 
+	    android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		 android:layout_marginRight="10dp" 
+		 android:src="@drawable/ic_download"
+		 android:layout_gravity="center_vertical"/>
+	<LinearLayout android:layout_height="fill_parent"
+		android:id="@+id/linearLayout1" android:orientation="vertical"
+		android:layout_width="fill_parent">
+		<TextView android:id="@+id/titleView"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:text="@string/download"/>
+		<TextView android:id="@+id/contentView"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"/>
+		 <ProgressBar  
+		    style="?android:attr/progressBarStyleHorizontal"		    
+			android:id="@+id/progressBar1" 
+			android:layout_height="4dp" 
+			android:layout_width="fill_parent"/>
+	</LinearLayout>
+</LinearLayout>

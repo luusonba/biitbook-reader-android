@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"	
+	android:background="@color/transparent">   	
+	    <!-- <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:background="@drawable/layout_navigation_top"
+	        android:layout_alignParentTop="true"	        
+	        android:id="@+id/layoutTop"	        
+			android:paddingBottom="5dp">
+	            
+	            <ImageButton 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"            
+	                android:background="@drawable/btnmenu"                
+	                android:src="@drawable/back_blue"
+	                android:paddingLeft="5dp"
+	                android:paddingRight="5dp"
+	                android:id="@+id/btnBiitbook"/>
+	             
+	         
+	            <LinearLayout 
+	                android:orientation="vertical"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:layout_marginRight="20dp"
+	                android:layout_marginLeft="10dp">
+	            	<TextView 
+		                android:id="@+id/txtTitleNavbar"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:singleLine="true"
+		                android:textColor="@color/colorBook"	                	                
+		                android:textSize="17sp"/>
+		             <TextView 
+		                android:id="@+id/txtActorNavbar"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:singleLine="true"		                	                               
+		                android:textColor="@color/colorAuthor"		                
+		                android:textSize="10sp"/>     
+	            </LinearLayout>
+	            	                 
+	            <ImageButton 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical|right"
+	                android:paddingLeft="5dp"
+					android:paddingRight="5dp"
+	                android:background="@drawable/btnmenu"                
+	                android:src="@drawable/cont"
+	                android:id="@+id/btnCont"/>	            
+	            
+	    </LinearLayout>-->
+	    
+	    <RelativeLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/layout_navigation_top"
+	        android:layout_alignParentTop="true"	        
+	        android:id="@+id/layoutTop"	        
+			android:paddingBottom="3dp"
+			android:paddingTop="3dp">
+	         <ImageButton 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentLeft="true"            
+	                android:background="@drawable/btnmenu"                
+	                android:src="@drawable/back_blue"
+	               	android:layout_marginLeft="5dp"
+	                android:id="@+id/btnBiitbook"/>
+	             
+	         <ImageButton 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentRight="true"
+	                android:layout_marginRight="5dp"
+	                android:background="@drawable/btnmenu"                
+	                android:src="@drawable/cont"
+	                android:id="@+id/btnCont"/>
+	         
+	            	<TextView 
+		                android:id="@+id/txtTitleNavbar"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:singleLine="true"
+		                android:layout_toRightOf="@id/btnBiitbook"
+		                android:layout_toLeftOf="@id/btnCont"
+		                android:layout_centerInParent="true"
+		                android:layout_marginLeft="10dp"
+		                android:layout_marginRight="10dp"
+		                android:textColor="@color/colorBook"	                	                
+		                android:textSize="17sp"/>
+		     
+	    </RelativeLayout>
+	  
+	    <LinearLayout
+		    android:id="@+id/layoutSeek"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentBottom="true"
+		    android:background="@drawable/layout_nagivation_bottom"
+		    android:orientation="vertical" >
+		    <LinearLayout 
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical">
+		        <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"		        
+		        android:orientation="horizontal">
+				
+		            <ImageButton
+		                android:id="@+id/btnSearch"
+		                android:layout_width="fill_parent"
+		                android:layout_height="fill_parent"
+		                android:layout_gravity="center"
+		                android:layout_weight="1.0"
+		                android:paddingTop="5dp"
+		                android:paddingBottom="10dp"
+		                android:background="@drawable/btnmenu"		                
+		                android:src="@drawable/search" />
+
+		            <ImageButton
+		                android:id="@+id/btnView"
+		                android:layout_width="fill_parent"
+		                android:layout_height="fill_parent"
+		                android:layout_gravity="center"
+		                android:paddingBottom="10dp"
+		                android:paddingTop="5dp"
+		                android:layout_weight="1.0"
+		                android:background="@drawable/btnmenu"		                
+		                android:src="@drawable/light" />
+		            
+		            <ImageButton
+		                android:id="@+id/btnSet"
+		                android:layout_width="fill_parent"
+		                android:layout_height="fill_parent"
+		                android:layout_gravity="center"
+		                android:paddingBottom="10dp"
+		                android:layout_weight="1.0"
+		                android:paddingTop="5dp"
+		                android:background="@drawable/btnmenu"		                
+		                android:src="@drawable/setting" />
+
+		         <ImageButton
+		                android:id="@+id/btnFont"
+		                android:layout_width="fill_parent"
+		                android:layout_height="fill_parent"
+		                android:layout_weight="1.0"
+		                android:paddingBottom="10dp"
+		                android:paddingTop="5dp"
+		                android:layout_gravity="center"
+		                android:background="@drawable/btnmenu"
+		                android:src="@drawable/font" />
+		        
+		    </LinearLayout>
+		   	
+		         <SeekBar
+		        android:id="@+id/book_position_slider"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"	
+		        android:paddingLeft="15dp"
+		        android:paddingRight="15dp"
+		        android:thumb="@drawable/thumbler_small"
+		        android:indeterminate="false" />		    
+		    <TextView
+		        android:id="@+id/book_position_text"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_horizontal"
+		        android:singleLine="true"
+		        android:textColor="@color/colorBook"
+		        android:textSize="14sp"
+		        android:layout_marginBottom="5dp" />
+		        
+		   </LinearLayout>		    
+		</LinearLayout>
+				
+		<RelativeLayout
+		    android:id="@+id/layoutTran"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:layout_below="@id/layoutTop"
+		    android:layout_above="@id/layoutSeek">
+		    
+		    <LinearLayout 
+        android:id="@+id/layout_popup_top"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:visibility="gone"
+    	android:background="@drawable/popup_view"
+    	android:layout_centerInParent="true"
+    	android:padding="10dp">
+		    
+    <RelativeLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="@string/background"
+    	android:id="@+id/txtMaunen"
+    	android:padding="3dp"
+    	android:textColor="@color/colorBook"
+    	android:textSize="12sp"/>
+        
+    <ImageButton
+        android:layout_alignParentRight="true"        
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/close_popup_view"
+    	android:background="@drawable/btnmenu"
+    	android:src="@drawable/close_popup"/> 
+    </RelativeLayout>
+ 
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="5dp"
+    	android:padding="3dp">
+    	<Button
+    		    android:id="@+id/btnWhite"
+		        android:layout_width="@dimen/nutNen"
+		        android:layout_height="@dimen/caonutNen"		        	        
+		        android:layout_marginLeft="3dp"
+		        android:textSize="@dimen/fontnutNen"
+		        android:layout_marginRight="3dp"	
+		        android:textColor="@color/colorBook"
+		        android:background="@drawable/btnwhite"		                
+		        android:text="@string/defult" />
+		                     
+			<Button
+    		    android:id="@+id/btnSepia"
+		        android:layout_width="@dimen/nutNen"
+		        android:layout_height="@dimen/caonutNen" 
+		        android:layout_marginLeft="3dp"
+		        android:layout_marginRight="3dp"
+		        android:textSize="@dimen/fontnutNen"
+		        android:textColor="@color/colorBook"
+		        android:layout_toRightOf="@id/btnWhite"
+		        android:background="@drawable/btnsepia"		                
+		        android:text="Sepia" />
+			
+			<Button
+    		    android:id="@+id/btnBlack"
+		        android:layout_width="@dimen/nutNen"
+		        android:layout_height="@dimen/caonutNen"
+		        android:layout_marginLeft="3dp"
+		        android:layout_marginRight="3dp"		
+		        android:layout_toRightOf="@id/btnSepia"
+		        android:textSize="@dimen/fontnutNen"        
+		        android:textColor="@color/colorBook"
+		        android:background="@drawable/btnblack"		                
+		        android:text="@string/night" />
+	</RelativeLayout>
+	
+     <TextView
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="@string/bright"
+    	android:padding="3dp"
+    	android:textColor="@color/colorBook"
+    	android:textSize="12sp"/>
+        
+    <RelativeLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="5dp"
+    	android:paddingLeft="0dp"
+    	android:paddingRight="0dp">		
+               <SeekBar
+					android:id="@+id/seek_popup_bright"
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"					    
+					        android:layout_centerInParent="true"
+					        android:thumb="@drawable/thumbler_small_bright"
+					        android:indeterminate="false" />        	
+	</RelativeLayout>
+	</LinearLayout>	
+	
+	
+	 <LinearLayout 
+        android:id="@+id/layout_popup_font"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:visibility="gone"
+    	android:background="@drawable/popup_view"
+    	android:layout_centerInParent="true"
+    	android:padding="10dp">
+		    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="@string/font"
+    	android:id="@+id/txtMaunen"
+    	android:padding="3dp"
+    	android:textColor="@color/colorBook"
+    	android:textSize="12sp"/>
+    
+    <ImageButton
+        android:layout_alignParentRight="true"        
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/close_popup_font"
+    	android:background="@drawable/btnmenu"
+    	android:src="@drawable/close_popup"/> 
+    </RelativeLayout>
+ 
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="5dp"
+    	android:padding="3dp">
+    	<Button
+    		    android:id="@+id/btnMono"
+		        android:layout_width="@dimen/nutNen"
+		        android:layout_height="@dimen/caonutNen"		        	        
+		        android:layout_marginLeft="3dp"
+		        android:textSize="@dimen/fontnutNen"
+		        android:layout_marginRight="3dp"	
+		        android:textColor="@color/colorBook"
+		        android:background="@drawable/btnwhite"		                
+		        android:text="Mono" />
+		                     
+			<Button
+    		    android:id="@+id/btnSans"
+		        android:layout_width="@dimen/nutNen"
+		        android:layout_height="@dimen/caonutNen" 
+		        android:layout_marginLeft="3dp"
+		        android:layout_marginRight="3dp"
+		        android:textSize="@dimen/fontnutNen"
+		        android:textColor="@color/colorBook"
+		        android:layout_toRightOf="@id/btnMono"
+		        android:background="@drawable/btnsepia"		                
+		        android:text="Sans" />
+			
+			<Button
+    		    android:id="@+id/btnSerif"
+		        android:layout_width="@dimen/nutNen"
+		        android:layout_height="@dimen/caonutNen"
+		        android:layout_marginLeft="3dp"
+		        android:layout_marginRight="3dp"		
+		        android:layout_toRightOf="@id/btnSans"
+		        android:textSize="@dimen/fontnutNen"        
+		        android:textColor="@color/colorBook"
+		        android:background="@drawable/btnblack"		                
+		        android:text="Serif" />
+	</RelativeLayout>
+	
+     <TextView
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="@string/size"
+    	android:padding="3dp"
+    	android:textColor="@color/colorBook"
+    	android:textSize="12sp"/>
+        
+    <RelativeLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="5dp"
+    	android:paddingLeft="0dp"
+    	android:paddingRight="0dp">		
+               <SeekBar
+					android:id="@+id/seek_popup_font"
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"					    
+					        android:layout_centerInParent="true"
+					        android:thumb="@drawable/thumbler_small_bright"
+					        android:indeterminate="false" />        	
+	</RelativeLayout>
+	</LinearLayout>	
+	
+	
+	</RelativeLayout> 
+</RelativeLayout>

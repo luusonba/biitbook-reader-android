@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/myFontColor"
+    android:paddingLeft="@dimen/list_padding"
+    android:paddingRight="@dimen/list_padding">
+        <ImageButton
+	        android:id="@+id/rowCancelDown"
+	        android:layout_width="20dp"
+	        android:layout_height="20dp"
+	        android:layout_centerVertical="true"
+	        android:layout_alignParentRight="true"
+	        android:src="@drawable/ic_canceldown"/>
+    
+        <LinearLayout 
+        	android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp"
+	        android:layout_marginLeft="5dp"
+       		android:layout_marginRight="5dp"
+	        android:layout_toLeftOf="@id/rowCancelDown"	  
+	        android:orientation="vertical">
+	        
+           <org.holoeverywhere.widget.TextView
+		        android:id="@+id/rowTitleDown"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"		                  
+		        android:textColor="@color/spe"
+		        android:textSize="@dimen/textName_size_mini"/>
+           
+           <org.holoeverywhere.widget.TextView
+		        android:id="@+id/rowAuthorDown"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"		                  
+		        android:textColor="@color/authorlistdown"
+		        android:layout_marginTop="5dp"
+		        android:textSize="@dimen/textHome_size_mini"/>
+        </LinearLayout>               
+                 
+</RelativeLayout>

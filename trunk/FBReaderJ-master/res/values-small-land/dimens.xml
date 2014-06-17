@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>	 
+	<dimen name="slidingmenu_offset">200dp</dimen>
+		<!--login-->
+		<dimen name="height_cover">90dp</dimen>
+	
+	<dimen name="layout_first_top">10dp</dimen>	
+	<dimen name="layout_first_leftright">20dp</dimen>	
+</resources>

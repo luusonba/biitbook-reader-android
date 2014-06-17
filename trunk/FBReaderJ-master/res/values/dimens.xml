@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	 <dimen name="btnHome_size">40dp</dimen>    
+	 <dimen name="textHome_size">17dp</dimen>
+	 <dimen name="textName_size">20dp</dimen>
+	 <dimen name="textName_size_mini">16dp</dimen>	 
+	 <dimen name="textHome_size_mini">14dp</dimen>
+	 <dimen name="height_cover">90dp</dimen>
+	 <dimen name="margin_left">20dp</dimen>
+	  <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>    
+    <dimen name="image_view_size">80dp</dimen>
+    <dimen name="space">3dp</dimen>
+	 <dimen name="margin">10dp</dimen>
+	 <dimen name="marginTopbtn">20dp</dimen>	 
+	 <dimen name="slidingmenu_offset">40dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    <integer name="num_cols">1</integer>
+    <dimen name="paddingLeftLogin">5dp</dimen>
+    <dimen name="paddingLeft">10dp</dimen>
+    <dimen name="width_grid">90dp</dimen>
+    <dimen name="padding_Left_grid">10dp</dimen>
+    <dimen name="width_grid_backgound">98dp</dimen>
+    <dimen name="hieght_grid">135dp</dimen>
+    <dimen name="padding_grid">5dp</dimen>
+    <dimen name="hieght_list">260dp</dimen>
+    <dimen name="hieght_list_lib">155dp</dimen>
+    <dimen name="hieght_list_set">345dp</dimen>
+    <dimen name="width_buy">150dp</dimen>
+    <dimen name="hieght_buy">225dp</dimen>
+	<dimen name="padding_progressbar">-8dp</dimen>
+	<dimen name="mylib_down">35dp</dimen>
+	<dimen name="mylib_down_h">40dp</dimen>
+	<dimen name="nutNen">60dp</dimen>
+	<dimen name="caonutNen">30dp</dimen>
+	<dimen name="fontnutNen">12sp</dimen>
+	<dimen name="splash_imagelogo_width">200dp</dimen>
+	<dimen name="splash_imagelogo_height">54dp</dimen>
+	<dimen name="splash_imageicon_left">10dp</dimen>
+	<dimen name="splash_imageicon_width">75dp</dimen>
+	<dimen name="splash_imageicon_height">90dp</dimen>
+	<dimen name="splash_text">50sp</dimen>
+	<dimen name="splash_scan_text">16sp</dimen>
+	<dimen name="splash_textFind_left">10dp</dimen>
+	<dimen name="splash_textFind_top">-20dp</dimen>	
+	<dimen name="page_preview_size">100dp</dimen>
+	<!--login-->
+	
+	<dimen name="layout_first_top">10dp</dimen>	
+	<dimen name="layout_first_leftright">20dp</dimen>	
+	
+	
+</resources>

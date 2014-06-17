@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@color/myFontColor"
+        android:id="@+id/content_frame"
+		android:layout_width="match_parent"
+	    android:layout_height="match_parent">    	
+	
+		    <ScrollView 
+			    android:layout_width="match_parent"
+		    	android:layout_height="wrap_content"
+		    	android:layout_centerInParent="true">
+        <LinearLayout 
+            android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="vertical">
+
+            <LinearLayout
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="@dimen/layout_first_top"
+		        android:layout_width="match_parent"
+		        android:layout_marginRight="@dimen/layout_first_leftright"
+		        android:layout_marginLeft="@dimen/layout_first_leftright"                
+		        android:orientation="vertical">
+		            
+        <LinearLayout 
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content"        	
+        	android:orientation="vertical">
+        	            <org.holoeverywhere.widget.EditText
+        	    android:id="@+id/txtEmail"
+        	    android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:textSize="@dimen/textHome_size"
+        		android:hint="@string/email"
+        		android:paddingLeft="@dimen/paddingLeftLogin"
+        		android:inputType="textEmailAddress"
+        		android:textColor="@color/textcolor"
+        		android:background="@drawable/focusedit"        	    
+        	    android:singleLine="true"
+        	    android:layout_gravity="center_vertical"
+        	    android:textColorHint="@color/textcolorhint"/>
+			
+		
+            <org.holoeverywhere.widget.EditText
+        	    android:id="@+id/txtPassword"
+        	    android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:textSize="@dimen/textHome_size"
+        		android:textColor="@color/textcolor"
+        		android:inputType="textPassword"
+        		android:paddingLeft="@dimen/paddingLeftLogin"
+        		android:hint="@string/pass"
+        		android:layout_gravity="center_vertical"
+        	    android:background="@drawable/focusedit"
+        	    android:layout_marginTop="@dimen/margin"        
+        	    android:textColorHint="@color/textcolorhint"	    
+        	    android:singleLine="true"/>						
+        </LinearLayout>          	       
+         	
+        	<org.holoeverywhere.widget.Button 
+        	    android:id="@+id/btnLogin"
+        	    android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:layout_marginTop="@dimen/marginTopbtn"        		
+        		android:background="@drawable/list_signup"
+        		android:textColor="@color/textbtnchinh"
+        		android:textSize="@dimen/textHome_size"        		
+        		android:text="@string/signin"/>
+        	<org.holoeverywhere.widget.TextView 
+        	    android:id="@+id/btnSignup"
+        	    android:layout_width="match_parent"
+        		android:layout_height="@dimen/btnHome_size"
+        		android:layout_weight="1"
+        		android:gravity="center" 
+        		android:layout_marginTop="@dimen/marginTopbtn"
+        		android:textColor="@color/spe"
+        		android:textSize="@dimen/textHome_size"        		
+        		android:text="@string/signup"/>
+        	<org.holoeverywhere.widget.TextView 
+        	    android:id="@+id/txtForgot"
+        	    android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"        		
+        		android:gravity="center" 
+        		android:layout_gravity="center_horizontal"        		
+        		android:textColor="@color/spe"
+        		android:layout_marginTop="@dimen/marginTopbtn"      	 
+        		android:textSize="@dimen/textHome_size_mini"        		
+        		android:text="@string/forgot"/>
+        	<org.holoeverywhere.widget.TextView 
+        	    android:id="@+id/btnContinue"
+        	    android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"        		
+        		android:gravity="center" 
+        		android:layout_gravity="center_horizontal"        		
+        		android:textColor="@color/spe"
+        		android:layout_marginTop="@dimen/margin" 
+        		android:paddingBottom="@dimen/marginTopbtn"     	 
+        		android:textSize="@dimen/textHome_size_mini"        		
+        		android:text="@string/txtLoginTiep"/>	         	            
+       </LinearLayout>
+   
+    </LinearLayout>
+    
+    </ScrollView>
+    
+</RelativeLayout>

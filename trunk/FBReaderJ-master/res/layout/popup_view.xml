@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout 
+        android:id="@+id/layout_popup_top"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="Màu nền"
+    	android:padding="3dp"
+    	android:textColor="@color/colorBook"
+    	android:textSize="12sp"/>
+    <!--<View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:background="@color/splitPopup"/>-->
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="5dp"
+    	android:padding="3dp">
+    	<Button
+    		    android:id="@+id/btnWhite"
+		        android:layout_width="@dimen/nutNen"
+		        android:layout_height="@dimen/caonutNen"		        	        
+		        android:layout_marginLeft="3dp"
+		        android:textSize="@dimen/fontnutNen"
+		        android:layout_marginRight="3dp"	
+		        android:textColor="@color/colorBook"
+		        android:background="@drawable/btnwhite"		                
+		        android:text="Mặc định" />
+		                     
+			<Button
+    		    android:id="@+id/btnSepia"
+		        android:layout_width="@dimen/nutNen"
+		        android:layout_height="@dimen/caonutNen" 
+		        android:layout_marginLeft="3dp"
+		        android:layout_marginRight="3dp"
+		        android:textSize="@dimen/fontnutNen"
+		        android:textColor="@color/colorBook"
+		        android:layout_toRightOf="@id/btnWhite"
+		        android:background="@drawable/btnsepia"		                
+		        android:text="Sepia" />
+			
+			<Button
+    		    android:id="@+id/btnBlack"
+		        android:layout_width="@dimen/nutNen"
+		        android:layout_height="@dimen/caonutNen"
+		        android:layout_marginLeft="3dp"
+		        android:layout_marginRight="3dp"		
+		        android:layout_toRightOf="@id/btnSepia"
+		        android:textSize="@dimen/fontnutNen"        
+		        android:textColor="@color/colorBook"
+		        android:background="@drawable/btnblack"		                
+		        android:text="Ban đêm" />
+	</RelativeLayout>
+	
+     <TextView
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="Độ sáng"
+    	android:padding="3dp"
+    	android:textColor="@color/colorBook"
+    	android:textSize="12sp"/>
+   <!-- <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:background="@color/splitPopup"/>   
+        
+        android:background="@drawable/popup_bg"-->
+        
+    <RelativeLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="5dp"
+    	android:paddingLeft="0dp"
+    	android:paddingRight="0dp">		
+          
+		            <!--<ImageButton
+		                android:id="@+id/btnGiam"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_alignParentLeft="true"		                
+		                android:background="@drawable/btnmenu"		                
+		                android:src="@drawable/daynight" />
+		           
+		         <ImageButton
+		                android:id="@+id/btnTang"
+		               	android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_alignParentRight="true"
+		                android:background="@drawable/btnmenu"
+		                android:src="@drawable/daynight" />
+						
+						    android:layout_toRightOf="@id/btnGiam"
+					        android:layout_toLeftOf="@id/btnTang"-->
+         
+		              <SeekBar
+					        android:id="@+id/book_position_slider"
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"					    
+					        android:layout_centerInParent="true"
+					        android:thumb="@drawable/thumbler_small_bright"
+					        android:indeterminate="false" />	
+	</RelativeLayout>
+	</LinearLayout>
+	
+    <!-- <ImageView
+        android:id="@+id/arrow_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/layout_popup_top"
+        android:src="@drawable/arrow_up" />
+        
+ 	<ImageView
+        android:id="@+id/arrow_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    	android:layout_below="@id/layout_popup_top"
+      	android:layout_marginTop="-5dip"
+        android:src="@drawable/arrow_down" />
+ -->
+</RelativeLayout>

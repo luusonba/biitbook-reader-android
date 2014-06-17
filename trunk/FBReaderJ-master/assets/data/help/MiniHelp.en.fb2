@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0" xmlns:l="http://www.w3.org/1999/xlink"><description><title-info><author><last-name>Biitbook</last-name></author> <book-title>About Biitbook</book-title> <lang>en</lang></title-info></description>
+<body>
+<title><p>Oops! Book not found.</p></title>
+<p>Please long press on thumnail image or Discovery to reload book.</p>
+<empty-line/>
+<subtitle><p>Related links</p></subtitle>
+<p>Website: <a l:href="http://www.biitbook.com">Biitbook</a>.</p>
+</body>
+</FictionBook>

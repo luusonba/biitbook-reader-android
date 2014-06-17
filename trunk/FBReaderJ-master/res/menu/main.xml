@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+   <item
+        android:id="@+id/menu"
+       	android:icon="@drawable/ic_menu" 
+        android:showAsAction="always" 
+        android:title="Menu">
+        <menu>
+	   		<item 
+		       	android:id="@+id/delete"
+		       	android:icon="@drawable/ic_menu_delete" 
+		        android:title="@string/deletebook">     
+	        </item>
+        </menu>       
+    </item>   
+</menu>
