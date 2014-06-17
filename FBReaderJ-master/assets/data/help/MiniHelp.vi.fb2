@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0" xmlns:l="http://www.w3.org/1999/xlink"><description><title-info><author><last-name>Biitbook</last-name></author> <book-title>About Biitbook</book-title> <lang>en</lang></title-info></description>
+<body>
+<title><p>Xin lỗi! Không tìm thấy sách.</p></title>
+<p>Bạn có thể nhấn giữ trên hình ảnh minh họa của sách hoặc vào Discovery để tải lại.</p>
+<empty-line/>
+<subtitle><p>Thông tin liên hệ</p></subtitle>
+<p>Website: <a l:href="http://www.biitbook.com">Biitbook</a>.</p>
+</body>
+</FictionBook>

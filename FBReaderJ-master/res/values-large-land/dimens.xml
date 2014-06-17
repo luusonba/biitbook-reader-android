@@ -1,0 +1,15 @@
+<resources>
+
+    <dimen name="slidingmenu_offset">550dp</dimen>
+	<dimen name="width_grid">120dp</dimen>
+	<dimen name="width_grid_backgound">128dp</dimen>
+    <dimen name="hieght_grid">180dp</dimen>
+    <integer name="num_cols">2</integer>
+    <dimen name="height_cover">90dp</dimen>
+	
+	<!--login-->
+	
+	<dimen name="layout_first_top">40dp</dimen>	
+	<dimen name="layout_first_leftright">40dp</dimen>	
+
+</resources>

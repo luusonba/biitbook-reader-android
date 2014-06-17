@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:id="@+id/content_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/myFontColor">
+        		
+	<LinearLayout
+	    android:id="@+id/layout_webview"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:background="@color/back_webview">     
+        <org.holoeverywhere.widget.ProgressBar
+	        android:id="@+id/progressBar"
+	        style="?android:attr/progressBarStyleHorizontal"      
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="@dimen/padding_progressbar"/>    
+	        
+	      <WebView 
+        	android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:id="@+id/webView"
+	        android:background="@color/white"/>	  	      
+	  </LinearLayout>
+	  
+	<RelativeLayout
+	    android:id="@+id/layout_error"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">        	      
+	      <org.holoeverywhere.widget.TextView 
+	        android:id="@+id/textloi"
+        	android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:layout_centerInParent="true"
+	        android:textColor="@color/spe"
+	        android:text="@string/networkerror"/>	    
+	     <org.holoeverywhere.widget.Button 
+	         android:id="@+id/retry"
+        	android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:layout_centerHorizontal="true"
+	        android:layout_below="@id/textloi"
+	        android:layout_marginTop="5dp"
+	        android:text="@string/reload"
+	        android:textColor="@color/spe"
+	        android:paddingLeft="10dp"
+	        android:paddingRight="10dp"/> 	      
+	  </RelativeLayout>
+</LinearLayout>
